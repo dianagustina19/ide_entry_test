@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JQUERY</title>
 </head>
 
-<body>
-
+<body onload="myFunction('myDiv');">
+    <div id="myDiv">
+        <img id="loading-image" src="C:\xampp\htdocs\TES\ajax_loader.gif" style="display:none;" />
+    </div>
 </body>
 
+
 </html>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    function myFunction(div_id) {
+        var divIdHtml = $("#" + div_id).html();
+        $.ajax({
+            type: "POST",
+            url: "https://test-ujian-masuk.infraedukasi.com",
+            beforeSend: function() {
+                $("#loading-image").show();
+            },
+            success: function(msg) {
+                $("#" + div_id).html(divIdHtml + msg);
+                $("#loading-image").hide();
+            }
+        });
+    }
+</script>

@@ -1,2 +1,9 @@
 1. ketik git brach nama_branch kemudian enter
 2. ketik git checkout nama_branch kemudian enter
+3. kemudian lakukan perubahan pada branch tersebut
+4. ketik git add , kemudian enter
+5. ketik git commit -m "comment" kemudian enter
+6. ketik git push -u origin nama_branch
+7. setelah push dilakukan, buka repository github di browser. maka akan terdapat tombol compare and pull request
+8. klik tombol compare & pull request tersebut, lalu akan diredirect ke halaman Open a pull request.
+9. selanjutnya silakan masukkan judul pull request dan deskripsi yang bersifat optional, kemudian klik create pull request

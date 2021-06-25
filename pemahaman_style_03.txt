@@ -1,1 +1,1 @@
-Empty Ruleset
+CSS Group Selectors
