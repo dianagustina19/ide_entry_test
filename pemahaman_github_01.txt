@@ -1,0 +1,16 @@
+cara upload file melalu clone repository
+1. ketik git clone https://github.com/dianagustina19/ide_entry_test pada cmd kemudian enter
+2. masuk kedalam folder yang sudah di clone , copy semua file yang ingin dimasukkan dan kemudian paste difolder yang sudah di clone
+3. kemudian buka cmd didalam folder tersebut, lalu ketik git init kemudian enter
+4. ketik git remote add origin https://github.com/dianagustina19/ide_entry_test.git kemudian enter
+5. ketik git add . kemudian enter
+6. ketik git commit -m "comment" kemudian enter
+7. ketik git push -u origin master kemudian enter
+
+cara upload file melalui folder yang sudah exiting di laptop
+1. buka cmd kemudian arahkan ke folder yang ingin diupload
+2. ketik git init enter
+3. ketik git remote add origin https://github.com/dianagustina19/ide_entry_test.git kemudian enter
+4. ketik git add . kemudian enter
+5. ketik git commit -m "comment" kemudian enter
+6. ketik git push -u origin master kemudian enter

@@ -1,0 +1,2 @@
+1. ketik git brach nama_branch kemudian enter
+2. kwtik git checkout nama_branch kemudian enter
