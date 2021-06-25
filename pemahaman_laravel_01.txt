@@ -1,2 +1,2 @@
-Environment Variable(env) merupakan variabel dinamis pada komputer yang dapat diakses oleh sebuah program.
-Config adalah folder yang menampung seluruh konfigurasi dari laravel
+Environment Variable(env) merupakan suatu variabel yang bisa diubah keadaan maupun karakteristiknya pada komputer yang dapat diakses oleh sebuah program. env biasanya terdapat konfigurasi untuk mengatur database yang akan digunakan
+Config adalah folder yang menyimpan aneka konfigurasi core Laravel dan tambahan package untuk Laravel. Semisal file app.php untuk mendaftar package tambahan di Laravel yang tersimpan pada folder ini
