@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQUERY</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+</body>
+
+</html>
+<script>
+    var names = [
+        "Andi", {
+            "Name": "Gunawan",
+            "Address": "Jl.Kemerdekaan 01"
+        },
+        "Budi"
+    ];
+
+    //jawaban (A)
+    var alamat = names[1]["Address"] = " Jalan Protokol Blok A No 1"
+    console.log(names[1]);
+
+    var nama = (names[1]["Name"]);
+    var div = document.createElement('div');
+
+    //jawaban (B)
+    div.innerHTML = "Nama : " + nama + "</br>" + "Alamat :" + alamat;
+    document.getElementById("demo").appendChild(div);
+</script>

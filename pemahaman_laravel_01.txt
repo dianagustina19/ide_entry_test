@@ -1,0 +1,2 @@
+Environment Variable(env) merupakan variabel dinamis pada komputer yang dapat diakses oleh sebuah program.
+Config adalah folder yang menampung seluruh konfigurasi dari laravel
